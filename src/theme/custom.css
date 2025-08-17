@@ -1,0 +1,123 @@
+/* Layouts */
+ion-datetime-button::part(native){
+	width: 100%;
+}
+ion-button[color="primary"]::part(native){
+	color: white;
+}
+.error-text{
+	font-size: 12px;
+}
+/* Layouts */
+
+/* Header */
+
+/* Header */
+
+/* Footer */
+.page-footer .tab-text{
+	font-size: 16px;
+}
+.page-footer .tab-icon{
+	margin-bottom: 4px;
+	font-size: 16px;
+}
+/* Footer */
+
+/* Navbar */
+.sidebar-menu .top-title{
+	text-decoration: none;
+	font-weight: 800;
+	font-size: 20px;
+}
+.sidebar-menu .section-greating{
+	font-size: 16px;
+}
+.sidebar-menu .section-icon{
+	font-size: 16px;
+	margin-right: 8px;
+	color: var(--ion-color-primary);
+}
+.sidebar-menu .section-title{
+	font-size: 16px;
+}
+.sidebar-menu .sub-section-icon{
+	margin-left: 15px;
+	font-size: 14px;
+	margin-right: 8px;
+	color: var(--ion-color-primary);
+}
+.sidebar-menu .sub-section-title{
+	font-size: 14px;
+}
+/* Navbar */
+
+/* Additional classess */
+.d-none {
+	display: none !important;
+}
+.bold{
+	font-weight: 800;
+}
+.success{
+	color: var(--ion-color-success) !important;
+}
+.danger{
+	color: var(--ion-color-danger) !important;
+}
+.bg-success{
+	background-color: var(--ion-color-success) !important;
+}
+.bg-danger{
+	background-color: var(--ion-color-danger) !important;
+}
+/* Additional classess */
+
+/* Login page */
+.login-page .login-grid{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.login-grid .go-register{
+	font-weight: 800;
+	color: var(--ion-color-primary);
+	font-size: 16px;
+}
+/* Login page */
+
+/* Register page */
+.register-page .register-grid{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+/* Register page */
+
+/* Recover password page */
+.recover-password-page .recover-password-grid{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+/* Recover password page */
+
+@media (prefers-color-scheme: dark){
+	/* Components */
+	ion-datetime{
+		background-color: var(--ion-color-dark);
+		--wheel-fade-background-rgb: var(--ion-color-dark-rgb);
+	}
+	ion-picker{
+		--fade-background-rgb: var(--ion-color-dark);
+		--highlight-background: var(--ion-color-dark);
+		--highlight-border-radius: var(--ion-color-dark);
+	}
+	/* Components */
+}
